@@ -1,3 +1,24 @@
+#device {
+    text-align: center;
+    background-color:rgb(34, 35, 38);
+    padding:70px 15px 50px ;
+}
+
+#device-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+}
+
+ul#device-link li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+ul#device-link li a {
+    color: rgb(29, 185, 84);
+}
+
 footer {
     background-color: black;
     color: white;
