@@ -19,6 +19,14 @@ ul#device-link li a {
     color: rgb(29, 185, 84);
 }
 
+nav ul li a {
+    margin-right: 20px;
+}
+
+a { 
+    color: inherit; 
+} 
+
 footer {
     background-color: black;
     color: white;
