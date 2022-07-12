@@ -1,0 +1,115 @@
+#device {
+    text-align: center;
+    background-color:rgb(34, 35, 38);
+    padding:70px 15px 50px ;
+}
+
+#device-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+}
+
+ul#device-link li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+ul#device-link li a {
+    color: rgb(29, 185, 84);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 80px 0px 50px;
+}
+
+.container {
+    display: flex;
+    margin: 0 300px;
+}
+
+.item5 {
+    flex-grow: 2;
+}
+
+#footinf {
+    font-size: 12px;
+}
+
+#footinf ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#footinf ul li a {
+    color: #919496;
+}
+
+#footinf ul li a:hover {
+    color: #1ed760;
+}
+
+#nto:hover {
+    color: #1ed760;
+}
+
+a, u {
+    text-decoration: none;
+  }
+
+a:visited {
+    color: white;
+  }
+
+a:hover {
+    color: #1ed760;
+}
+
+ul h4 {
+    color: #919496;
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style: none;
+    flex-grow: 1;
+    padding: 5px 0px;
+}
+
+ul ul {
+    padding: 0;
+}
+
+ul ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul ul li a:hover {
+    color: #1ed760;
+}
+
+.fa-brands {
+    font-size: 40px;
+}
+
+.fa-brands:hover {
+    color: #1ed760;
+}
+
+.mlauto {
+    margin-left: auto;
+}
+
+.mlauto a:hover {
+    color: #1ed760;
+}
+
+.copyr {
+    margin: 0 0 0 auto;
+    padding: 17px 0;
+    font-size: 12px;
+    color: #919496;
+}

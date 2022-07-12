@@ -1,4 +1,22 @@
-    <header style="background-color: lightgreen ;">
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Test Home Spotify</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     <style>
+        body {
+            font-family: spotify-circular, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+     <header style="background-color: lightgreen ;">
         <picture>
             <source height="80 em" srcset="img/spotify.webp" type="image/webp">
             <img src="img/spotify.jpg" alt="logo spotify">
@@ -19,3 +37,85 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section style="text-align:center; background-color: rgb(25, 230, 140); color: black; padding: 100px;">
+            <img src="img/laptop.svg" alt="icona laptop" width="136px">
+            <h1>Scarica Spotify</h1>
+            <h4>Riproduci milioni di brani e podcast sul tuo dispositivo.</h4>
+            <button style="margin-top: 40px; padding: 10px 20px;" type="submit">Scarica</button>
+        </section>
+        <section style="text-align:center; padding: 70px 15px;">
+            <h2>Ascolta la tua musica anche da cellulare e tablet.</h2>
+            <h4>L'ascolto sul tuo telefono o table è gratuito, facile e divertente.</h4>
+            <a href="#"><img style="margin: 10px;" src="img/apple.svg" alt="logo apple"></a>
+            <a href="#"><img style="height: 57px;" src="img/android.svg" alt="logo android"></a>
+            <a href="#"><img style="margin: 10px;" src="img/microsoft.png" alt="log windows"></a>
+        </section>
+        <section id="device">
+            <img width="50%" src="img/devices.svg" alt="logo console e periferiche supportate">
+            <h3 style="color: white;">Ascolta dove vuoi, da un unico account.</h3>
+            <div>
+                <ul id="device-link">
+                    <li>cellulare</li>
+                    <li>computer</li>
+                    <li>tablet</li>
+                    <li><a href="#">auto</a></li>
+                    <li><a href="#">playstation</a></li>
+                    <li><a href="#">xbox</a></li>
+                    <li><a href="#">tv</a></li>
+                    <li><a href="#">altoparlante</a></li>
+                    <li><a href="#">lettore web</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul id="navfoot" class="container">
+            <li><img width="132px" height="40px" src="img/spotifywhite1.png" alt="logo spotify"></li>
+            <li>
+                <h4>Azienda</h4>
+                <ul>
+                    <li><a href="#">Chi siamo</a></li>
+                    <li><a href="#">Opportunità di Lavoro</a></li>
+                    <li><a href="#">For The Record</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="#">Per Artisti</a></li>
+                    <li><a href="#">Sviluppatori</a></li>
+                    <li><a href="#">Pubblicità</a></li>
+                    <li><a href="#">Investitori</a></li>
+                    <li><a href="#">Venditori</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>Link Utili</h4>
+                <ul>
+                    <li><a href="#">Assistenza</a></li>
+                    <li><a href="#">Lettore Web</a></li>
+                    <li><a href="#">App per cellulare</a></li>
+                    <li><a href="#">Diritti del consumatore</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+        </ul>
+        <div class="container">
+            <a id="nto" class="mlauto" href="#">Italy</a>
+        </div>
+        <div id="footinf" class="container">
+            <ul>
+                <li><a href="#">Informazioni Legali</a></li>
+                <li><a href="#">Centro sulla privacy</a></li>
+                <li><a href="#">Informativa sulla privacy</a></li>
+                <li><a href="#">Impostazioni cookie</a></li>
+                <li><a href="#">Info annunci</a></li>
+            </ul>
+            <span class="copyr">© 2022 Spotify AB</span>
+        </div>
+    </footer>
+</body>
+</html>
